@@ -1,6 +1,6 @@
 # Mobile-App-Contacts
-# This is a simple app that saves Contacts
-# Made in a Mobile App course
+## This is a simple app that saves Contacts
+## Made in a Mobile App course
 
 
 ![alt text](https://github.com/evhx00/Mobile-App-Contacts/blob/main/contactGallery/Screenshot_20220219_233002.png)
