@@ -1,0 +1,14 @@
+android/bignerdranch/assignment7/ViewPager.java
+ android.bignerdranch.assignment7.ViewPager
+android/bignerdranch/assignment7/DatabaseHelper.java
+ android.bignerdranch.assignment7.DatabaseHelper
+android/bignerdranch/assignment7/ContactAdd.java
+ android.bignerdranch.assignment7.ContactAdd
+android/bignerdranch/assignment7/MainActivity.java
+ android.bignerdranch.assignment7.MainActivity
+ android.bignerdranch.assignment7.MainActivity$1
+ android.bignerdranch.assignment7.MainActivity$2
+android/bignerdranch/assignment7/Contact.java
+ android.bignerdranch.assignment7.Contact
+android/bignerdranch/assignment7/BuildConfig.java
+ android.bignerdranch.assignment7.BuildConfig

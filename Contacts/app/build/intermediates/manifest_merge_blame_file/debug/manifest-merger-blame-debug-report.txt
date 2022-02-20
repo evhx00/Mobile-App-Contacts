@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.bignerdranch.assignment7"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:10:5-79
+11-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:10:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:11:5-67
+12-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:11:22-64
+13
+14    <application
+14-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:5:5-22:19
+15        android:allowBackup="true"
+15-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\eveel\.gradle\caches\transforms-3\3097e1c5dd79a0661fe903d2c2778720\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.Contact" >
+23-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:11:9-45
+24        <activity android:name="android.bignerdranch.Contact.ViewPager" />
+24-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:12:9-75
+24-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:12:19-72
+25        <activity android:name="android.bignerdranch.Contact.ContactAdd" />
+25-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:13:9-76
+25-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:13:19-73
+26        <activity
+26-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:14:9-21:20
+27            android:name="android.bignerdranch.Contact.MainActivity"
+27-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:14:19-75
+28            android:exported="true" >
+28-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:15:13-36
+29            <intent-filter>
+29-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:17:17-69
+30-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:19:17-77
+32-->C:\Users\eveel\OneDrive\Documents\Portfolio\Mobile-Apps\Contacts\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:14:9-20:19
+37            android:name="com.google.firebase.components.ComponentDiscoveryService"
+37-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:15:13-84
+38            android:directBootAware="true"
+38-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+39            android:exported="false" >
+39-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:16:13-37
+40            <meta-data
+40-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:17:13-19:85
+41                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+41-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:18:17-129
+42                android:value="com.google.firebase.components.ComponentRegistrar" />
+42-->[com.google.firebase:firebase-inappmessaging:19.1.5] C:\Users\eveel\.gradle\caches\transforms-3\8d306a82d198d4cc59e4328496f7d993\transformed\jetified-firebase-inappmessaging-19.1.5\AndroidManifest.xml:19:17-82
+43            <meta-data
+43-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\eveel\.gradle\caches\transforms-3\479d8ca0c89203f9eb8600530f091052\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
+44                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+44-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\eveel\.gradle\caches\transforms-3\479d8ca0c89203f9eb8600530f091052\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\eveel\.gradle\caches\transforms-3\479d8ca0c89203f9eb8600530f091052\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\eveel\.gradle\caches\transforms-3\3a83ffb9b33ca26e7743deb022f7360c\transformed\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:28:13-30:85
+47                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+47-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\eveel\.gradle\caches\transforms-3\3a83ffb9b33ca26e7743deb022f7360c\transformed\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:29:17-115
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\eveel\.gradle\caches\transforms-3\3a83ffb9b33ca26e7743deb022f7360c\transformed\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:30:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\eveel\.gradle\caches\transforms-3\5ef1da2e297c8f134bfdaab6bbab5761\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+50                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+50-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\eveel\.gradle\caches\transforms-3\5ef1da2e297c8f134bfdaab6bbab5761\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\eveel\.gradle\caches\transforms-3\5ef1da2e297c8f134bfdaab6bbab5761\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+52            <!--
+53                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+54                clients to use it as well, by defining this registrar in their own core/common library.
+55            -->
+56            <meta-data
+56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+57                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+59        </service>
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+63            android:authorities="android.bignerdranch.assignment7.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:19.5.0] C:\Users\eveel\.gradle\caches\transforms-3\d9eb7fba3f100e3dbf1d8056e8f485bc\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\eveel\.gradle\caches\transforms-3\e4898daa19107726d8553380a56a633e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\eveel\.gradle\caches\transforms-3\e4898daa19107726d8553380a56a633e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\eveel\.gradle\caches\transforms-3\e4898daa19107726d8553380a56a633e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+71
+72        <service
+72-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+73            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+73-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+74            android:exported="false" >
+74-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+75            <meta-data
+75-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+76                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+76-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+77                android:value="cct" />
+77-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\eveel\.gradle\caches\transforms-3\3737b0554bdf4c8e2b05f23e675b38fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+78        </service>
+79        <service
+79-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+80            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+80-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+81            android:exported="false"
+81-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+82            android:permission="android.permission.BIND_JOB_SERVICE" >
+82-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+83        </service>
+84
+85        <receiver
+85-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+86            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+86-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+87            android:exported="false" />
+87-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\eveel\.gradle\caches\transforms-3\52ec12010da3c01f75ac18a1afbda1f1\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+88    </application>
+89
+90</manifest>
